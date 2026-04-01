@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "n8n-mcp": {
+      "command": "npx.cmd",
+      "args": ["-y", "n8n-mcp"],
+      "env": {
+        "MCP_MODE": "stdio",
+        "LOG_LEVEL": "error",
+        "DISABLE_CONSOLE_OUTPUT": "true",
+        "N8N_API_URL": "https://smartboxlockers.app.n8n.cloud",
+        "N8N_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzNzY5YTRlOC01MDE2LTQ3YTYtYmJkYS00ZDFlMzE1OTIyOGYiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwianRpIjoiZWYzYjBmN2ItNzFlNC00ZTA3LTgxMjYtZWQ2MjQyNWNhZDlkIiwiaWF0IjoxNzc0MjYwNjQxLCJleHAiOjE3NzkzODgyMDB9.jTgMMd1tnRtSJFleCgkdzVmEgnJsXjp7VfZh1yMdm9o"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
